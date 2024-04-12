@@ -1,0 +1,148 @@
+.header {
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    transition: top 0.3s,
+    background-color 0.25s;
+}
+
+.hidden {
+    top: -150px;
+    background-color: transparent;
+}
+
+.site-logo {
+    width: 165px;
+    margin: 23px 0 25px 40px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    justify-content: space-around;
+
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.menu-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+
+    font-size: 17px;
+    font-weight: 500;
+
+    padding: 20px
+}
+
+.login-button {
+    background-color: rgb(0, 171, 155);
+    border: none;
+    color: white;
+
+    border-radius: 65px;
+
+    font-size: 17px;
+    font-weight: 500;
+
+    padding: 20px 40px;
+    margin: 30px 0;
+}
+
+.introduction-section {
+    padding-top: 180px;
+    padding-bottom: 90px;
+    margin-left: -8px;
+    margin-right: -8px;
+    
+    background-color: rgba(16,30,59,255);
+    background-image: url(../img/6.jpg);
+    background-size: 1400px;
+    background-repeat: no-repeat;
+    background-position: -30px 0px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.introduction-title {
+    color: white;
+    font-size: 67px;
+    font-weight: bold;
+    line-height: 70px;
+
+
+    padding-left: 40px;
+    padding-top: 5px;
+    margin-bottom: 0;
+}
+.introduction-text {
+    color: white;
+    font-size: 20px;
+    line-height: 27px;
+
+    padding-left: 40px;
+    margin-top: 17px;
+    
+    width: 90%;
+}
+
+.introduction-img {
+    width: 680px;
+
+    padding-top: 130px;
+    padding-right: 45px;
+    margin-left: -30px;
+}
+
+.introduction-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 95%;
+}
+
+.demo {
+    background-color: rgb(0, 171, 155);
+    border: none;
+    color: white;
+
+    border-radius: 65px;
+
+    font-size: 19px;
+    font-weight: 500;
+    text-align: center;
+
+    padding-top: 17px;
+    padding-bottom: 33px;
+    margin-left: 40px;
+
+    width: 255px;
+    height: 14px;
+}
+
+.see {
+    background-color: transparent;
+    border: solid white 4px;
+    color: white;
+
+    border-radius: 65px;
+
+    font-size: 19px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: underline;
+
+    padding-top: 13px;
+    padding-bottom: 29px;
+
+    width: 247px;
+    height: 14px;
+}

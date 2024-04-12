@@ -1,0 +1,11 @@
+html {
+    font-family: 'Poppins';
+}
+
+body {
+    padding-bottom: 500px;
+}
+
+button:hover {
+    cursor: pointer;
+}
